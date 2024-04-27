@@ -1,3 +1,10 @@
+@font-face {
+	font-family: Bluu Next;
+	font-style: normal;
+	font-weight: 700;
+	src: local("Bluu Next Bold"), local("BluuNext-Bold"), url(bluu-next-bold.woff2) format("woff2"), url("https://raw.githubusercontent.com/jbmorizot/BluuNext/master/Fonts/BluuNext-Bold.otf") format("opentype");
+}
+
 :root {
     /* colors */
     --green: #00FF00;
@@ -35,6 +42,10 @@ html, body {
     padding: 0;
     font-size: 10px;
     box-sizing: border-box;
+}
+
+.title {
+    font-family: "Bluu Next", sans-serif;
 }
 
 #backlink {
