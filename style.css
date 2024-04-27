@@ -21,6 +21,8 @@
     --white: #FAFFFF;
     --black: #121212;
     --grey: #5e5e5e;
+    --font-title: Bagnard, serif;
+    --font-body: Urbanist, sans-serif;
 
     /* theme */
     --bg: var(--white);
@@ -37,6 +39,8 @@
         --white: #FAFFFF;
         --black: #000000;
         --grey: #949494;
+    	--font-title: Bagnard, serif;
+    	--font-body: Urbanist, sans-serif;
 
         /* theme */
         --bg: #1d1d1d;
@@ -52,11 +56,11 @@ html, body {
 }
 
 * {
-    font-family: Urbanist, sans-serif;
+    font-family: var(--font-body);
 }
 
 .title {
-    font-family: "Bagnard", sans-serif;
+    font-family: var(--font-title);
 }
 
 #backlink {
@@ -208,13 +212,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .subtitle {
-    font-family: Urbanist, sans-serif;
+    font-family: var(--font-body);
     font-size: 2rem;
     margin-bottom: .5rem;
 }
 
 .text {
-    font-family: Urbanist, sans-serif;
+    font-family: var(--font-body);
     font-size: 1.5rem;
 }
 
@@ -333,7 +337,7 @@ input[type='text'] {
 }
 
 label {
-    font-family: Urbanist, sans-serif;
+    font-family: var(--font-body);
     font-size: 2rem;
     font-weight: 600;
 }
