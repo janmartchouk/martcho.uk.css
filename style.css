@@ -1,8 +1,15 @@
 @font-face {
-	font-family: Bluu Next;
+	font-family: Urbanist;
 	font-style: normal;
 	font-weight: 700;
-	src: local("Bluu Next Bold"), local("BluuNext-Bold"), url(bluu-next-bold.woff2) format("woff2"), url("https://raw.githubusercontent.com/jbmorizot/BluuNext/master/Fonts/BluuNext-Bold.otf") format("opentype");
+	src: local("Urbanist"), url("https://raw.githubusercontent.com/coreyhu/Urbanist/main/fonts/webfonts/Urbanist-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: Bagnard;
+	font-style: normal;
+	font-weight: 700;
+	src: local("Bagnard"), url("https://raw.githubusercontent.com/sebsan/Bagnard/master/Bagnard.otf") format("opentype");
 }
 
 :root {
@@ -44,8 +51,12 @@ html, body {
     box-sizing: border-box;
 }
 
+* {
+    font-family: Urbanist, sans-serif;
+}
+
 .title {
-    font-family: "Bluu Next", sans-serif;
+    font-family: "Bagnard", sans-serif;
 }
 
 #backlink {
@@ -191,17 +202,20 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .title {
-    font-size: 2rem;
+    font-size: 3.1rem;
+    font-family: Bagnard, serif;
     margin-bottom: 1rem;
 }
 
 .subtitle {
-    font-size: 1.5rem;
+    font-family: Urbanist, sans-serif;
+    font-size: 2rem;
     margin-bottom: .5rem;
 }
 
 .text {
-    font-size: 1rem;
+    font-family: Urbanist, sans-serif;
+    font-size: 1.5rem;
 }
 
 .btn {
@@ -319,7 +333,8 @@ input[type='text'] {
 }
 
 label {
-    font-size: 1.3rem;
+    font-family: Urbanist, sans-serif;
+    font-size: 2rem;
     font-weight: 600;
 }
 
