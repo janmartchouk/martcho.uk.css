@@ -57,6 +57,7 @@ html, body {
 
 * {
     font-family: var(--font-body);
+    color: var(--text);
 }
 
 .title {
@@ -93,7 +94,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .secondary {
     color: var(--grey);
-};
+}
 
 .container-l {
     padding: 5rem;
@@ -157,7 +158,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .c-yellow {
-    color: var(--yellow);
+    color: #FDDA0D;
     * {
         fill: var(--yellow);
     }
